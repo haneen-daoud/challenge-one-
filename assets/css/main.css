@@ -1,3 +1,4 @@
+
 :root{
   --maincolor : #71A894;
   
@@ -16,6 +17,16 @@ body{
   display: flex;
 
 }
+h2{
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+
+p{
+  font-family: 'Proxima Nova', sans-serif;
+
+}
 .main-image{
   flex: 1;
   padding: 20px;
@@ -31,6 +42,10 @@ body{
   font-size: 54px  ;
   line-height: 80px;
   color: black;
+  font-family: 'Bely Display', serif;
+ font-weight: 500;
+ font-family: 'Abril Fatface', cursive;
+
 }
 p{
   color:#66645E;
@@ -374,4 +389,28 @@ h2{
 .navbar-brand{
   font-weight:500 ;
   font-size: 24px;
+}
+/*media*/
+@media only screen and (max-width: 768px) {
+.row-about{
+  display: block!important;
+}
+.box-right-content{
+  width: 300px;
+}
+.upper-open{
+font-size: 10px;
+display: block!important;
+}
+h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+h1{
+
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
 }
